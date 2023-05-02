@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav {
+    background: url(../img/header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+.menu {
+    float: right;
+    margin: 3%;
+}
+
+.menu a {
+    padding: 8px 30px;
+    background-color: #aaa;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    transition: .3s;
+}
+
+.menu a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* ------ */
+
+#header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: url(../img/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 82vh;
+}
+
+.sidleft {
+    margin: 5px;
+}
+
+
+/* ---- */
+
+.sidright {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #aaa;
+    color: #fff;
+    width: 95%;
+    height: 450px;
+    margin: 5px;
+}
+
+.sidright h1 {
+    color: #000;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-group {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+}
+
+.form-rows1 {
+    margin: 10px;
+}
+
+.form-rows2 {
+    margin: 10px;
+}
+
+.form-email {
+    margin: 20px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #111;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    transition: .3s ease-out;
+}
+
+.too:focus {
+    transform: scale(1.1);
+}
+
+.form-text {
+    margin: 20px;
+}
+
+textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #111;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    transition: .3s ease-out;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-left: 240px;
+    background-color: #186539;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #1f9753;
+}

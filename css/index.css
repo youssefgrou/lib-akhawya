@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.nav {
+    background: url(../img/header.svg);
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nav .menu {
+    margin-top: 50px;
+    grid-column: 3/5;
+}
+
+.nav .menu a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    padding: 8px 20px;
+    transition: .3s;
+    border-bottom: 2px solid #000;
+    margin: 10px;
+}
+
+.nav .menu .admin {
+    background-color: #000;
+    color: #fff;
+}
+
+.nav .menu a:hover {
+    color: #fff;
+    background-color: #349156;
+}
+
+
+/* --------END NAVBAR--------- */
+
+.contenu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #c3c3c360;
+    grid-template-rows: minmax(300px, auto);
+}
+
+.sideleft {
+    padding: 10px;
+}
+
+.sideleft img {
+    width: 1000px;
+}
+
+
+/* --------sideright----- */
+
+.sideright h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px #666 solid;
+    max-width: 305px;
+    color: #444;
+    margin: 10px;
+    font-size: 23px;
+}
+
+.sideright h1::selection {
+    background-color: #186835;
+    color: #fff;
+}
+
+.sideright .info {
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 360px;
+    background-color: #fff;
+    box-shadow: #656565 1px 2px 15px;
+}
+
+.sideright .info p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #444;
+    margin-bottom: 10px;
+    line-height: 1.4rem;
+}
+
+
+/* -----------desc-info---------- */
+
+.myEdit {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.myEdit a {
+    text-decoration: none;
+    color: #222;
+    padding: 8px 30px;
+    background-color: #186835;
+    transition: .3s;
+    font-weight: 500;
+}
+
+.myEdit a:hover {
+    background-color: #00683a;
+    color: #fff;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #186835 !important;
+}
+.icones a{
+    padding: 10px ;
+    color: #000;
+    border-radius: 50%;
+    background-color: transparent;
+    border: #000 solid 1px;
+    
+}
+.icones a:hover{
+    background-color: #000000a2;
+    border-radius: 50%;
+    color: #fff;
+}
+.icone2{
+    border-radius: 50%;
+    height: 40px;
+}

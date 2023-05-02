@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.nav {
+    background: url(../img/header.svg);
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: end;
+}
+
+.nav .menu-list {
+    margin-top: 50px;
+    grid-column: 3/6;
+    margin-right: 10px;
+}
+
+.nav .menu-list a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    padding: 8px 20px;
+    transition: .3s;
+    border-bottom: 2px solid #000;
+}
+
+.nav .menu-list .admin {
+    background-color: #000;
+    color: #fff;
+}
+
+.nav .menu-list a:hover {
+    color: #fff;
+    background-color: #349156;
+}
+
+
+/* ----- */
+
+.contenu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #c3c3c360;
+    grid-template-rows: minmax(300px, auto);
+}
+
+.sideleft {
+    padding: 10px;
+}
+
+.sideleft img {
+    width: 1000px;
+}
+
+
+/* --------sideright----- */
+
+.sideright h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px #666 solid;
+    max-width: 305px;
+    color: #444;
+    margin: 10px;
+    font-size: 23px;
+}
+
+.sideright h1::selection {
+    background-color: #186835;
+    color: #fff;
+}
+
+.sideright .info {
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 360px;
+    background-color: #fff;
+    box-shadow: #656565 1px 2px 15px;
+}
+
+.sideright .info p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #444;
+    margin-bottom: 10px;
+    line-height: 1.4rem;
+}
+
+
+/* btn add */
+footer {
+    background-color: #186835 !important;
+}
+.desc-list a {
+    padding: 8px 30px;
+    background-color: #aaa;
+    color: #000;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.desc-list a:hover {
+    background-color: #186835;
+    color: #f6f4f4;
+}
+
+.icones a{
+    padding: 10px ;
+    color: #000;
+    border-radius: 50%;
+    background-color: #186835;
+    border: #000 solid 1px;
+    
+}
+.icones a:hover{
+    background-color: #000000a2;
+    border-radius: 50%;
+    color: #fff;
+}
+.icone2{
+    border-radius: 50%;
+    height: 40px;
+}

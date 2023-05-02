@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #aaa;
+}
+
+.nav {
+    background: url(../img/header.svg);
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nav .menu {
+    margin-top: 50px;
+    grid-column: 3/5;
+}
+
+.nav .menu a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    padding: 8px 30px;
+    transition: .3s;
+    border-bottom: 2px solid #000;
+}
+
+.nav .menu a:hover {
+    color: #fff;
+    background-color: #349156;
+}
+
+
+/* --------END NAVBAR--------- */
+
+.container {
+    background-color: #fff;
+}
